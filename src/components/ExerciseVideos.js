@@ -15,7 +15,7 @@ function ExerciseVideos({ exerciseVideos, name }) {
                 flexDirection: { lg: 'row' },
                 gap: { lg: '110px', xs: '0' },
             }} >
-                {exerciseVideos?.slice(0, 3).map((item, index) => (
+                {exerciseVideos?.slice(0, 6).map((item, index) => (
                     <a
                         key={index}
                         className="exercise-video"
